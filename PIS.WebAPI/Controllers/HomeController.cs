@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using PIS.DAL.DataModel;
 using PIS.Model;
 using PIS.Repository.Common;
@@ -14,13 +15,22 @@ namespace PIS.WebAPI.Controllers
     [ApiController, Route("pis")]
     public class HomeController : Controller
     {
+        #region Properties
+        
         private IService _service { get; set; }
+        private int _requestUserId;
+        #endregion
+
+        #region Constructor
 
         public HomeController(IService service)
         {
             _service = service;
+            _requestUserId = -1;
         }
+        #endregion
 
+        #region Methods
         [HttpGet, Route("test")]
         public string Test() {
             return _service.Test();
@@ -45,10 +55,20 @@ namespace PIS.WebAPI.Controllers
         [Route("users/add")]
         public async Task<IActionResult> AddUserAsync([FromBody] UsersREST user)
         {
-
-
-            UsersDTO dto = new UsersDTO()
+            bool reqUser = await PickLastRequestUserId();
+            if (!reqUser)
             {
+                return BadRequest("Missing params in request header.");
+            }
+
+            if (user.UserLoginName == string.Empty ||
+                user.UserLoginName.Length >= 128 ||
+                user.UserSurname.Length >= 128 ||
+                user.UserName.Length >= 128) {
+                return BadRequest(StatusCodes.Status406NotAcceptable +  ": Invalid input.");
+            }
+
+            UsersDTO dto = new UsersDTO() {
                 UserLoginName = user.UserLoginName,
                 UserName = user.UserName,
                 UserSurname = user.UserSurname
@@ -57,7 +77,33 @@ namespace PIS.WebAPI.Controllers
             bool add_user = await _service.AddUserAsync(dto);
             if(add_user) 
                 return Ok("User je dodan!"); 
-            else return Ok("User nije dodan!"); 
+            else return BadRequest("User nije dodan!"); 
         }
+
+        #region Test
+        private async Task<bool> PickLastRequestUserId()
+        {
+            _requestUserId = -1;
+            try
+            {
+                IHeaderDictionary headers = this.Request.Headers;
+                if (headers.ContainsKey("RequestUserId"))
+                {
+                    if (int.TryParse(headers["RequestUserId"].ToString(), out _requestUserId))
+                    {
+                        return await _service.IsValidUser(userId: _requestUserId);
+                    }
+                    else return false;
+                }
+                else return false;
+            }
+            catch
+            {
+                _requestUserId = -1;
+                return false;
+            }
+        }
+        #endregion Test
+        #endregion Methods
     }
 }

@@ -14,5 +14,6 @@ namespace PIS.Repository.Common
         List<UsersDTO> GetAllUsersDTOs();
         Task<bool> AddUserAsync(UsersDTO usersDTO);
         UsersDTO GetUserDTOById(int id);
+        Task<bool> IsValidUser(int userId);
     }
 }

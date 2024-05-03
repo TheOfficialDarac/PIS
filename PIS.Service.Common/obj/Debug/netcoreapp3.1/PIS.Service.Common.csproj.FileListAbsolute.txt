@@ -11,3 +11,4 @@ C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PI
 C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.csproj.CopyComplete
 C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.csprojAssemblyReference.cache

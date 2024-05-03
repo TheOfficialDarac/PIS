@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.ChangeTracking;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using PIS.DAL.DataModel;
 using PIS.Model;
 using PIS.Repository.Automapper;
@@ -60,6 +61,20 @@ namespace PIS.Repository
         {
             return "I am ok - Repository.Test";
         }
+
+        public async Task<UsersDTO> FindUserAsync(int userID)
+        {
+            try
+            {
+                PisUsersDrupcic userDb = await _appDbContext.PisUsersDrupcic.FirstAsync(u => u.UserId == userID);
+                return _mapper.Map<UsersDTO>(userID);
+            }
+            catch 
+            {
+                return null;
+            }
+        }
+
         #endregion
     }
 }

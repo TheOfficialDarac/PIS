@@ -16,5 +16,6 @@ namespace PIS.Repository.Common
 
         Task<bool> AddUserAsync(UsersDTO usersDTO);
         string Test();
+        Task<UsersDTO> FindUserAsync(int userID);
     }
 }

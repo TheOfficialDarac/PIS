@@ -31,7 +31,7 @@ namespace PIS.Service
             string error = "Users List is empty.";
             if (users == null)
             {
-                throw new Exception($@"{error}");
+                throw new Exception($@"{400} :{error}");
             }
             else return users;
         }
@@ -44,6 +44,14 @@ namespace PIS.Service
         public UsersDTO GetUserDTOById(int id)
         {
             return _repository.GetUsersDTObyId(id);
+        }
+
+        public async Task<bool> IsValidUser(int userId)
+        {
+            UsersDTO user = await _repository.FindUserAsync(userId);
+
+            if (user == null) return false;
+            else return true;
         }
 
         public string Test()
