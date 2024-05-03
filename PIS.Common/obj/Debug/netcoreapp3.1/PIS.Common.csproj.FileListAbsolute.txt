@@ -1,0 +1,8 @@
+C:\Users\astudent\source\repos\PIS\PIS.Common\bin\Debug\netcoreapp3.1\PIS.Common.deps.json
+C:\Users\astudent\source\repos\PIS\PIS.Common\bin\Debug\netcoreapp3.1\PIS.Common.dll
+C:\Users\astudent\source\repos\PIS\PIS.Common\bin\Debug\netcoreapp3.1\PIS.Common.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Common\obj\Debug\netcoreapp3.1\PIS.Common.AssemblyInfoInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.Common\obj\Debug\netcoreapp3.1\PIS.Common.AssemblyInfo.cs
+C:\Users\astudent\source\repos\PIS\PIS.Common\obj\Debug\netcoreapp3.1\PIS.Common.csproj.CoreCompileInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.Common\obj\Debug\netcoreapp3.1\PIS.Common.dll
+C:\Users\astudent\source\repos\PIS\PIS.Common\obj\Debug\netcoreapp3.1\PIS.Common.pdb

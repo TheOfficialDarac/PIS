@@ -13,9 +13,9 @@ namespace PIS.Repository.Common
         IQueryable<PisUsersDrupcic> GetAllUsers();
         IEnumerable<UsersDTO> GetAllUsersDTOs();
         UsersDTO GetUsersDTObyId(int id);
-
         Task<bool> AddUserAsync(UsersDTO usersDTO);
-        string Test();
         Task<UsersDTO> FindUserAsync(int userID);
+
+        string Test();
     }
 }

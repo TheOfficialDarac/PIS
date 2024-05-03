@@ -6,6 +6,7 @@ C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.WebAPI
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.WebAPI.runtimeconfig.dev.json
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.WebAPI.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.WebAPI.pdb
+C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -36,12 +37,16 @@ C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\runtimes\w
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.DAL.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Model.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.Common.dll
+C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Service.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Service.dll
+C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.pdb
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Service.pdb
+C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Common.pdb
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.DAL.pdb
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Model.pdb
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.Common.pdb
@@ -59,6 +64,3 @@ C:\Users\astudent\source\repos\PIS\PIS.WebAPI\obj\Debug\netcoreapp3.1\PIS.WebAPI
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\obj\Debug\netcoreapp3.1\PIS.WebAPI.dll
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\obj\Debug\netcoreapp3.1\PIS.WebAPI.pdb
 C:\Users\astudent\source\repos\PIS\PIS.WebAPI\obj\Debug\netcoreapp3.1\PIS.WebAPI.genruntimeconfig.cache
-C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.dll
-C:\Users\astudent\source\repos\PIS\PIS.WebAPI\bin\Debug\netcoreapp3.1\PIS.Repository.pdb

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PIS.Common;
 using PIS.DAL.DataModel;
 using PIS.Model;
 using PIS.Repository.Common;
@@ -37,17 +38,28 @@ namespace PIS.WebAPI.Controllers
         }
 
         [HttpGet, Route("users_db")]
-        public IEnumerable<PisUsersDrupcic> GetAllUsersDb() {
-            return _service.GetAllUsers();
+        public Task<Tuple<List<PisUsersDrupcic>, List<ErrorMessage>>> GetAllUsersDb() {
+            HttpRequestResponse<IEnumerable<PisUsersDrupcic>> reponse = new HttpRequestResponse<IEnumerable<PisUsersDrupcic>>();
+
+            var users = _service.GetAllUsers();
+
+            //if (users != null) {
+            //    reponse = users.Result.Item1;
+            //}
+            //return reponse;
+            return users;
         }
 
 
         [HttpGet, Route("users")]
         [HttpGet, Route("users/{id}")]
-        public IEnumerable<UsersDTO> GetAllUsersDTOs(int? id)
+        //public IEnumerable<UsersDTO> GetAllUsersDTOs(int? id)
+        public async Task<Tuple<List<UsersDTO>, List<ErrorMessage>>> GetAllUsersDTOs(int? id)
         {
             if (id != null) {
-                return new List<UsersDTO>() { _service.GetUserDTOById((int)id) };
+                var result = _service.GetUserDTOById((int)id);
+                
+                return Tuple.Create(new List<UsersDTO>() { result.Item1 }, result.Item2);
             }
             return _service.GetAllUsersDTOs();
         }
@@ -91,7 +103,7 @@ namespace PIS.WebAPI.Controllers
                 {
                     if (int.TryParse(headers["RequestUserId"].ToString(), out _requestUserId))
                     {
-                        return await _service.IsValidUser(userId: _requestUserId);
+                        return await _service.IsValidUser(_requestUserId);
                     }
                     else return false;
                 }

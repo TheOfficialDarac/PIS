@@ -1,12 +1,14 @@
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Service.deps.json
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Service.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Service.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.DAL.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Model.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Repository.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Service.Common.dll
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Repository.Common.pdb
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Service.Common.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Common.pdb
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.DAL.pdb
 C:\Users\astudent\source\repos\PIS\PIS.Service\bin\Debug\netcoreapp3.1\PIS.Model.pdb
 C:\Users\astudent\source\repos\PIS\PIS.Service\obj\Debug\netcoreapp3.1\PIS.Service.csprojAssemblyReference.cache

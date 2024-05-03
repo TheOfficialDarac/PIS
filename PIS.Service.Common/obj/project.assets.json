@@ -1253,6 +1253,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "PIS.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PIS.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PIS.Common.dll": {}
+        }
+      },
       "PIS.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -4944,6 +4954,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "PIS.Common/1.0.0": {
+      "type": "project",
+      "path": "../PIS.Common/PIS.Common.csproj",
+      "msbuildProject": "../PIS.Common/PIS.Common.csproj"
+    },
     "PIS.DAL/1.0.0": {
       "type": "project",
       "path": "../PIS.DAL/PIS.DAL.csproj",
@@ -4957,6 +4972,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "PIS.Common >= 1.0.0",
       "PIS.Model >= 1.0.0"
     ]
   },
@@ -4992,6 +5008,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\astudent\\source\\repos\\PIS\\PIS.Common\\PIS.Common.csproj": {
+              "projectPath": "C:\\Users\\astudent\\source\\repos\\PIS\\PIS.Common\\PIS.Common.csproj"
+            },
             "C:\\Users\\astudent\\source\\repos\\PIS\\PIS.MODEL\\PIS.Model.csproj": {
               "projectPath": "C:\\Users\\astudent\\source\\repos\\PIS\\PIS.MODEL\\PIS.Model.csproj"
             }

@@ -66,7 +66,8 @@ namespace PIS.Repository
         {
             try
             {
-                PisUsersDrupcic userDb = await _appDbContext.PisUsersDrupcic.FirstAsync(u => u.UserId == userID);
+                var userDb = await _appDbContext.PisUsersDrupcic.FirstAsync(u => u.UserId == userID);
+                if (userDb == null) return null;
                 return _mapper.Map<UsersDTO>(userID);
             }
             catch 

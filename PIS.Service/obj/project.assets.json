@@ -1253,6 +1253,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "PIS.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/PIS.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PIS.Common.dll": {}
+        }
+      },
       "PIS.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1297,6 +1307,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "PIS.Common": "1.0.0",
           "PIS.Model": "1.0.0"
         },
         "compile": {
@@ -4970,6 +4981,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "PIS.Common/1.0.0": {
+      "type": "project",
+      "path": "../PIS.Common/PIS.Common.csproj",
+      "msbuildProject": "../PIS.Common/PIS.Common.csproj"
     },
     "PIS.DAL/1.0.0": {
       "type": "project",
