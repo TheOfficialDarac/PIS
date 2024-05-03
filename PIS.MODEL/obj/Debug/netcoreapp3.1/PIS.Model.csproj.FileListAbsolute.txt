@@ -1,0 +1,12 @@
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\bin\Debug\netcoreapp3.1\PIS.Model.deps.json
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\bin\Debug\netcoreapp3.1\PIS.Model.dll
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\bin\Debug\netcoreapp3.1\PIS.Model.pdb
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\bin\Debug\netcoreapp3.1\PIS.DAL.dll
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\bin\Debug\netcoreapp3.1\PIS.DAL.pdb
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.csprojAssemblyReference.cache
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.AssemblyInfoInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.AssemblyInfo.cs
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.csproj.CoreCompileInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.csproj.CopyComplete
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.dll
+C:\Users\astudent\source\repos\PIS\PIS.MODEL\obj\Debug\netcoreapp3.1\PIS.Model.pdb

@@ -1,0 +1,13 @@
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.Service.Common.deps.json
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.Service.Common.dll
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.Service.Common.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.DAL.dll
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.Model.dll
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.Model.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\bin\Debug\netcoreapp3.1\PIS.DAL.pdb
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.AssemblyInfoInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.AssemblyInfo.cs
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.csproj.CoreCompileInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.csproj.CopyComplete
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.dll
+C:\Users\astudent\source\repos\PIS\PIS.Service.Common\obj\Debug\netcoreapp3.1\PIS.Service.Common.pdb

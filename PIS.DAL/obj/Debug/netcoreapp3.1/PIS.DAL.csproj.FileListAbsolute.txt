@@ -1,0 +1,11 @@
+C:\Users\astudent\source\repos\PIS\PIS.DAL\bin\Debug\netcoreapp3.1\PIS.DAL.deps.json
+C:\Users\astudent\source\repos\PIS\PIS.DAL\bin\Debug\netcoreapp3.1\PIS.DAL.runtimeconfig.json
+C:\Users\astudent\source\repos\PIS\PIS.DAL\bin\Debug\netcoreapp3.1\PIS.DAL.runtimeconfig.dev.json
+C:\Users\astudent\source\repos\PIS\PIS.DAL\bin\Debug\netcoreapp3.1\PIS.DAL.dll
+C:\Users\astudent\source\repos\PIS\PIS.DAL\bin\Debug\netcoreapp3.1\PIS.DAL.pdb
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.AssemblyInfoInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.AssemblyInfo.cs
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.csproj.CoreCompileInputs.cache
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.dll
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.pdb
+C:\Users\astudent\source\repos\PIS\PIS.DAL\obj\Debug\netcoreapp3.1\PIS.DAL.genruntimeconfig.cache
